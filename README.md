@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, It's Tanmay Bharambe</h1>
 <h3 align="center">A passionate Learner from India</h3>
-<img align="right" alt="gif" src="">
 
 - 🔭 I’m currently working on **a Android Project**
 
