@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, It's Tanmay Bharambe</h1>
 <h3 align="center">A passionate Learner from India</h3>
-<img align="right" alt="Codng" width="400" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fprogramming-gifs&psig=AOvVaw202GO3J9vNfm9jRqrKfvVD&ust=1646244232579000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDO27DApfYCFQAAAAAdAAAAABAD">
+<img align="right" alt="gif" src="https://tenor.com/view/coding-gif-24297652">
 
 - 🔭 I’m currently working on **a Android Project**
 
