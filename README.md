@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, It's Tanmay Bharambe</h1>
 <h3 align="center">A passionate Learner from India</h3>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=bharambetr2002&label=Profile%20views&color=FF00FF&style=flat" alt="bharambetr2002" /> </p>
 <img align="right" alt="GIF" height="300px" src="https://github.com/bharambetr2002/bharambetr2002/blob/main/coding.gif" />
 
 - 🔭 I’m currently working on **a Android Project**
