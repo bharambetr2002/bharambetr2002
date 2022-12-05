@@ -5,7 +5,7 @@
 
 ## GitHub Stats<br/>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bharambetr2002&show_icons=true&locale=en&layout=compact&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" alt="bharambetr2002" /></p>
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=bharambetr2002&show_icons=true&locale=en&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" alt="bharambetr2002" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=bharambetr2002&show_icons=true&locale=en&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" alt="bharambetr2002" /></p></br>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bharambetr2002" alt="bharambetr2002" /></p>
 
 ## Connect with me:<br/>
