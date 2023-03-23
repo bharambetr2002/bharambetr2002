@@ -1,4 +1,4 @@
-### <h1 align="center">Hi there 👋 I'm Tanmay Bharambe</h1>
+### <h1 align="center">Hey there 👋 I'm Tanmay Bharambe</h1>
 
 <img align="right" width="500" height="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzcwMWM2MDFhNDMwNzYwYTE4YzA2ZWM0YzY1OTY1MGU2NzI1NGY4NCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif">
 
