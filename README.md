@@ -4,7 +4,7 @@
 🔭 I’m currently working on a Website<br>🌱 I’m currently learning DSA {Java}<br>😁Open for suggestions,Open to help<br>🎶 Fun fact: Krishna Can fix all the Bugs Belive me !!!
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Tanmay#8691) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_its_tanmayyy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmaybharambe) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/~Tanmay#8691) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_its_tanmayyy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmaybharambe) 
 
 ## ✉️ Contact
 Email: bharambetr2002@gmail.com
