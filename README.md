@@ -11,8 +11,6 @@
 
 ## ✉️ Contact
 Email: bharambetr2002@gmail.com
-<br /><br/>
-
 <br />
 
 ## 📊 GitHub Stats:
