@@ -1,16 +1,22 @@
-<h1 align="center">Hi, It's Tanmay Bharambe</h1>
+### <h1 align="center">Hi there 👋 I'm Tanmay Bharambe</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bharambetr2002&label=Profile%20views&color=0e75b6&style=flat" alt="bharambetr2002" /> 
-<a href="https://twitter.com/bharambe_tanmay"><img src="https://img.shields.io/twitter/follow/bharambe_tanmay?style=social" alt="Twitter: @bharambe_tanmay"></a></p>
+# 💫 About Me:
+🔭 I’m currently working on a Website<br>🌱 I’m currently learning DSA {Java}<br>😁Open for suggestions,Open to help<br>🎶 Fun fact: Krishna Can fix all the Bugs Belive me !!!
 
-## GitHub Stats<br/>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bharambetr2002&show_icons=true&locale=en&layout=compact&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" alt="bharambetr2002" />
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=bharambetr2002&show_icons=true&locale=en&title_color=ff1a8c&text_color=e6e6e6&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" alt="bharambetr2002" />
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bharambetr2002" alt="bharambetr2002" /></p>
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Tanmay#8691) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_its_tanmayyy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmaybharambe) 
 
-## Connect with me:<br/>
-<p align="left">
-<a href="https://dev.to/tanmay_02" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="tanmay_02" height="30" width="40" /></a>
-<a href="https://twitter.com/bharambe_tanmay" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bharambe_tanmay" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/tanmaybharambe/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tanmaybharambe/" height="30" width="40" /></a>
-<a href="https://instagram.com/_its_tanmayyy/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_its_tanmayyy/" height="30" width="40" /></a>
+## ✉️ Contact
+Email: bharambetr2002@gmail.com
+<br /><br/>
+
+<br />
+
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=bharambetr2002&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=bharambetr2002&theme=tokyonight&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=bharambetr2002&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+
+---
+
+
