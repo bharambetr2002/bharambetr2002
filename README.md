@@ -7,9 +7,15 @@
 
   
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/~Tanmay#8691) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_its_tanmayyy) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmaybharambe) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/~Tanmay#8691) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_its_tanmayyy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmaybharambe) 
+<a href="https://leetcode.com/bharambetr2002/"><img alt="Static Badge" src="https://img.shields.io/badge/dynamic/json?labelColor=black&color=%23ffa116&label=LeetCode&query=solved&url=https%3A%2F%2Fbadge.xyli.tech/%2Fapi%2Fusers%2Fbharambetr2002&logo=leetcode&logoColor=yellow"></a>
+<br />
+<a href="https://wakatime.com/@bharambetr2002"><img align="left" src="https://wakatime.com/badge/user/018bafed-988f-4a8f-9158-c0465ae00d92.svg?"></a>
+<a href="https://wakatime.com/@bharambetr2002"><img src="https://komarev.com/ghpvc/?username=bharambetr2002&label=Total+Views&color=brightgreen">
 
-<a href="https://wakatime.com/@018bafed-988f-4a8f-9158-c0465ae00d92"><img src="https://wakatime.com/badge/user/018bafed-988f-4a8f-9158-c0465ae00d92.svg" alt="Total time coded since Nov 8 2023" /></a>
+
 
 ## ✉️ Contact
 Email: bharambetr2002@gmail.com
