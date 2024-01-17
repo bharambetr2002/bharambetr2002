@@ -13,7 +13,6 @@
 <a href="https://leetcode.com/bharambetr2002/"><img alt="Static Badge" src="https://img.shields.io/badge/dynamic/json?labelColor=black&color=%23ffa116&label=LeetCode&query=solved&url=https%3A%2F%2Fbadge.xyli.tech/%2Fapi%2Fusers%2Fbharambetr2002&logo=leetcode&logoColor=yellow"></a>
 <br />
 <a href="https://wakatime.com/@bharambetr2002"><img src="https://wakatime.com/badge/user/018bafed-988f-4a8f-9158-c0465ae00d92.svg?"></a>
-<a href="https://wakatime.com/@bharambetr2002"><img src="https://komarev.com/ghpvc/?username=bharambetr2002&label=Total+Views&color=brightgreen"></a>
 
 
 
