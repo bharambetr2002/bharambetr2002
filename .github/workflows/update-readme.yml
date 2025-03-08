@@ -22,13 +22,13 @@ jobs:
           TODAY_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
             "https://wakatime.com/api/v1/users/current/summaries?range=today" | jq -r '.data[0].grand_total.text')
 
-          echo "TOTAL_HOURS=$TOTAL_HOURS" >> $GITHUB_ENV
-          echo "TODAY_HOURS=$TODAY_HOURS" >> $GITHUB_ENV
+          echo "TOTAL_HOURS=${TOTAL_HOURS:-0h 0m}" >> $GITHUB_ENV
+          echo "TODAY_HOURS=${TODAY_HOURS:-0h 0m}" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          sed -i "s|**Total Coding Time:** ⏳ _Updating..._|**Total Coding Time:** ⏳ $TOTAL_HOURS|" README.md
-          sed -i "s|**Today's Coding Time:** ⏳ _Updating..._|**Today's Coding Time:** ⏳ $TODAY_HOURS|" README.md
+          sed -i "s|**Total Coding Time:** ⏳ .*|**Total Coding Time:** ⏳ $TOTAL_HOURS|" README.md
+          sed -i "s|**Today's Coding Time:** ⏳ .*|**Today's Coding Time:** ⏳ $TODAY_HOURS|" README.md
 
       - name: Commit and Push Changes
         run: |
