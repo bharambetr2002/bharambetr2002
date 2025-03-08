@@ -2,38 +2,39 @@ name: Update WakaTime Stats in README
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour
-  workflow_dispatch: # Allows manual triggering
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Fetch WakaTime Stats
         id: waka_stats
         run: |
           TOTAL_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
-            "https://wakatime.com/api/v1/users/current/stats/last_7_days" | jq '.data.grand_total.text')
+            "https://wakatime.com/api/v1/users/current/stats/last_7_days" | jq -r '.data.grand_total.text')
 
           TODAY_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
-            "https://wakatime.com/api/v1/users/current/daily_summary" | jq '.[0].grand_total.text')
+            "https://wakatime.com/api/v1/users/current/summaries?range=today" | jq -r '.data[0].grand_total.text')
 
           echo "TOTAL_HOURS=$TOTAL_HOURS" >> $GITHUB_ENV
           echo "TODAY_HOURS=$TODAY_HOURS" >> $GITHUB_ENV
 
-      - name: Update README with WakaTime Stats
+      - name: Update README
         run: |
-          sed -i "s|<!--START_TOTAL_CODING_TIME-->.*<!--END_TOTAL_CODING_TIME-->|<!--START_TOTAL_CODING_TIME-->$TOTAL_HOURS<!--END_TOTAL_CODING_TIME>|" README.md
-          sed -i "s|<!--START_TODAY_CODING_TIME-->.*<!--END_TODAY_CODING_TIME-->|<!--START_TODAY_CODING_TIME-->$TODAY_HOURS<!--END_TODAY_CODING_TIME>|" README.md
+          sed -i "s|**Total Coding Time:** ⏳ _Updating..._|**Total Coding Time:** ⏳ $TOTAL_HOURS|" README.md
+          sed -i "s|**Today's Coding Time:** ⏳ _Updating..._|**Today's Coding Time:** ⏳ $TODAY_HOURS|" README.md
 
-      - name: Commit and push changes
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated README with latest WakaTime stats" || echo "No changes to commit"
+          git commit -m "Updated WakaTime stats 📊"
           git push
+        continue-on-error: true
