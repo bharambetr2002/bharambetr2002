@@ -7,7 +7,4 @@
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=bharambetr2002&layout=compact&theme=github_dark" alt="WakaTime Stats">
   <br>
-  <strong>Total Coding Time:</strong> ⏳ **<!--START_TOTAL_CODING_TIME-->Loading...<!--END_TOTAL_CODING_TIME-->**<br>
-  <strong>Today's Coding Time:</strong> ⏳ **<!--START_TODAY_CODING_TIME-->Loading...<!--END_TODAY_CODING_TIME-->**<br>
-  <small>Note: These stats are based on WakaTime data and may not be 100% accurate.</small>
 </p>
