@@ -8,18 +8,27 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Fetch WakaTime Stats
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SECTION_NAME: "coding"
-          COMMIT_MESSAGE: "Updated WakaTime coding stats in README"
-          TIME_RANGE: "last_7_days" # Change this if needed
+        id: waka_stats
+        run: |
+          TOTAL_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
+            "https://wakatime.com/api/v1/users/current/stats/last_7_days" | jq '.data.grand_total.text')
+
+          TODAY_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
+            "https://wakatime.com/api/v1/users/current/daily_summary" | jq '.[0].grand_total.text')
+
+          echo "TOTAL_HOURS=$TOTAL_HOURS" >> $GITHUB_ENV
+          echo "TODAY_HOURS=$TODAY_HOURS" >> $GITHUB_ENV
+
+      - name: Update README with WakaTime Stats
+        run: |
+          sed -i "s|<!--START_TOTAL_CODING_TIME-->.*<!--END_TOTAL_CODING_TIME-->|<!--START_TOTAL_CODING_TIME-->$TOTAL_HOURS<!--END_TOTAL_CODING_TIME>|" README.md
+          sed -i "s|<!--START_TODAY_CODING_TIME-->.*<!--END_TODAY_CODING_TIME-->|<!--START_TODAY_CODING_TIME-->$TODAY_HOURS<!--END_TODAY_CODING_TIME>|" README.md
 
       - name: Commit and push changes
         run: |
