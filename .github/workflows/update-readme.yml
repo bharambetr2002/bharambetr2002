@@ -16,19 +16,31 @@ jobs:
       - name: Fetch WakaTime Stats
         id: waka_stats
         run: |
+          # Fetch total coding time for the last 7 days
           TOTAL_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
             "https://wakatime.com/api/v1/users/current/stats/last_7_days" | jq -r '.data.grand_total.text')
 
+          # Fetch today's coding time
           TODAY_HOURS=$(curl -s -H "Authorization: Bearer ${{ secrets.WAKATIME_API_KEY }}" \
             "https://wakatime.com/api/v1/users/current/summaries?range=today" | jq -r '.data[0].grand_total.text')
 
-          echo "TOTAL_HOURS=${TOTAL_HOURS:-0h 0m}" >> $GITHUB_ENV
-          echo "TODAY_HOURS=${TODAY_HOURS:-0h 0m}" >> $GITHUB_ENV
+          # Default to '0h 0m' if the variables are empty
+          TOTAL_HOURS=${TOTAL_HOURS:-0h 0m}
+          TODAY_HOURS=${TODAY_HOURS:-0h 0m}
+
+          # Escape special characters for sed
+          ESCAPED_TOTAL_HOURS=$(printf '%s\n' "$TOTAL_HOURS" | sed -e 's/[\/&]/\\&/g')
+          ESCAPED_TODAY_HOURS=$(printf '%s\n' "$TODAY_HOURS" | sed -e 's/[\/&]/\\&/g')
+
+          echo "ESCAPED_TOTAL_HOURS=$ESCAPED_TOTAL_HOURS" >> $GITHUB_ENV
+          echo "ESCAPED_TODAY_HOURS=$ESCAPED_TODAY_HOURS" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          sed -i "s|**Total Coding Time:** ⏳ .*|**Total Coding Time:** ⏳ ${TOTAL_HOURS//\//\\/}|" README.md
-          sed -i "s|**Today's Coding Time:** ⏳ .*|**Today's Coding Time:** ⏳ ${TODAY_HOURS//\//\\/}|" README.md
+          # Update Total Coding Time
+          sed -i "s|**Total Coding Time:** ⏳ .*|**Total Coding Time:** ⏳ ${{ env.ESCAPED_TOTAL_HOURS }}|" README.md
+          # Update Today's Coding Time
+          sed -i "s|**Today's Coding Time:** ⏳ .*|**Today's Coding Time:** ⏳ ${{ env.ESCAPED_TODAY_HOURS }}|" README.md
 
       - name: Commit and Push Changes
         run: |
