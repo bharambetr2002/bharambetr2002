@@ -12,4 +12,4 @@
 - **Total Coding Time:** ⏳ _Updating..._
 - **Today's Coding Time:** ⏳ _Updating..._
 
-> ⏳ This time is based on WakaTime tracking and may not be 100% accurate.
+> ⚠️ **Note:** This time is based on WakaTime and may not be 100% accurate.
