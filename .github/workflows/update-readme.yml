@@ -3,7 +3,7 @@ name: Update WakaTime Stats in README
 on:
   schedule:
     - cron: "0 * * * *"  # Runs every hour
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -27,8 +27,8 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s|**Total Coding Time:** ⏳ .*|**Total Coding Time:** ⏳ $TOTAL_HOURS|" README.md
-          sed -i "s|**Today's Coding Time:** ⏳ .*|**Today's Coding Time:** ⏳ $TODAY_HOURS|" README.md
+          sed -i "s|**Total Coding Time:** ⏳ .*|**Total Coding Time:** ⏳ ${TOTAL_HOURS//\//\\/}|" README.md
+          sed -i "s|**Today's Coding Time:** ⏳ .*|**Today's Coding Time:** ⏳ ${TODAY_HOURS//\//\\/}|" README.md
 
       - name: Commit and Push Changes
         run: |
