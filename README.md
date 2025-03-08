@@ -5,11 +5,3 @@
    <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=bharambetr2002&theme=github_dark">
    <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=bharambetr2002&theme=github_dark&utcOffset=5.5">
 </p>
-
----
-
-### 🕒 My Coding Stats (Last 7 Days)
-- **Total Coding Time:** ⏳ _Updating..._
-- **Today's Coding Time:** ⏳ _Updating..._
-
-> ⚠️ **Note:** This time is based on WakaTime and may not be 100% accurate.
